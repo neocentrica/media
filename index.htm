@@ -6,15 +6,21 @@
 <link rel="stylesheet" type="text/css" href="estilito.css">
 <link rel="shortcut icon" type="image/png" href="favicon.jpg"/>
 </head>
+
 <body>
 
 <header><h1><img id="chinechism" src="title.png" alt="cinesmofilms"></h1></header>
-<nav><p><a href="file:///C:/Users/Manuel/Desktop/httpswww.cinesmo.films/films.htm">películas</a></p>
+
+<nav>
+  
+<p><a href="file:///C:/Users/Manuel/Desktop/httpswww.cinesmo.films/films.htm">películas</a></p>
 <p><a href="file:///C:/Users/Manuel/Desktop/httpswww.cinesmo.films/fotografia.htm">fotografía</a></p>
 <a id="info" onclick=desplegar('infor','info')>información</a> 
+<p id="infor" style="display:none;">películas aún no hechas.<br><br>colombia<br>cinesmofilms@gmail.com<br>+57 304 66 228 41</p>
+
 </nav>
 
-<p id="infor" style="display:none;">películas aún no hechas.<br><br>colombia<br>cinesmofilms@gmail.com<br>+57 304 66 228 41</p>
+
 <script>
 function desplegar(info, infor){
 if(document.getElementById(info).style.display=='block'){

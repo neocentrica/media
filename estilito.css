@@ -29,5 +29,6 @@ padding-left: 20px;
 footer {position: absolute; left: 75%; bottom: 0%;
 font-size: 10px;
 text-align: center;
+width: 100vw;
 }
 

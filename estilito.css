@@ -20,7 +20,7 @@ main img {width: 100%;
 background-color: #ffff64;
 }
 
-a{   font-size: 5vw;
+a{   font-size: 5vw; margin: 0;
 font-family: Tahoma, Geneva, sans-serif;
 font-weight: bold; color: black;
 text-decoration: none; cursor: default;
@@ -40,6 +40,8 @@ font-size: 1vw;  width: 100%;
 
 @media screen and (max-width: 500px){
     .container{grid-template-columns: 100% 0%;}
+    a{font-size: 4em;}
+    #infor{font-size: 2em;}
 }
 
 

@@ -39,7 +39,7 @@ font-size: 1vw;  width: 100%;
 }
 
 @media screen and (max-width: 500px){
-                                   main{ display: none;}
+    .container{grid-template-columns: 100% 0%;}
 }
 
 

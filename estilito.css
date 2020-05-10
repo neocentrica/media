@@ -1,0 +1,46 @@
+body {margin: 0;
+    background-color: #FFE4E1; overflow-y: hidden;
+}
+
+.container {display: grid;
+  grid-template-columns: 30% 70%;
+    
+   
+}
+          
+
+
+
+header img {width: 100%;
+background-color: #8ca0ff;
+   
+}
+
+main img {width: 100%;
+background-color: #ffff64;
+}
+
+a{   font-size: 5vw;
+font-family: Tahoma, Geneva, sans-serif;
+font-weight: bold; color: black;
+text-decoration: none; cursor: default;
+background-color: #ffa08c;
+}
+
+
+#infor {font-family: Tahoma, Geneva, sans-serif; margin: 0;
+font-weight: normal;
+font-size: 2vw;
+}
+
+
+footer {position: absolute; bottom: 0%; text-align: center;
+font-size: 1vw;  width: 100%;
+}
+
+@media screen and (max-width: 500px){
+                                   main{ display: none;}
+}
+
+
+

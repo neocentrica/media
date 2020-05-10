@@ -16,7 +16,7 @@ box-sizing: border-box; padding: 5%;
 main img {width: 100%;
 }
 
-a{   font-size: 4em; margin: 0;
+a{   font-size: 4em;
 font-family: Tahoma, Geneva, sans-serif;
 font-weight: bold; color: black;
 text-decoration: none; cursor: default;

@@ -40,7 +40,7 @@ font-size: 1vw;  width: 100%;
 
 @media screen and (max-width: 500px){
     .container{grid-template-columns: 100% 0%;}
-    a{font-size: 4em;}
+    a{font-size: 4em; max-width:480px;}
     #infor{font-size: 2em;}
 }
 

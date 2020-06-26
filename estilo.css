@@ -1,4 +1,4 @@
-body {background-color: gold; text-align: center; font-family: "Arial Black", Gadget, sans-serif; }
+body {background-color: gold; margin: 0 auto; text-align: center; font-family: "Arial Black", Gadget, sans-serif; }
     main {width: 80%;
     display: grid; 
     grid-template-columns: 50% 50%;}

@@ -4,7 +4,7 @@ display: grid;
 grid-template-columns: 1fr 1fr ;}
 
 .logo {width: 100%;}
-a{color: black; text-decoration: none;}
+a{color: black;}
 @media screen and (max-width: 600px) {
  main {grid-template-columns: 1fr;
   }

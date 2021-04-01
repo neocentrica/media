@@ -1,4 +1,4 @@
-body {background-color: gold; margin: 0 auto; text-align: center; font-family: "Arial Black", Gadget, sans-serif;}
+body {background-color: gold; margin: 0 auto; text-align: center; font-family: "Arial Black", Gadget, sans-serif; user-select: none;}
 nav {color: black; cursor: default; font-size: 3em;}
 h1{font-size: 2em;}
 h2{font-size: 1.5em;}

@@ -1,11 +1,8 @@
 body {background-color: gold; margin: 0 auto; text-align: center; font-family: "Arial Black", Gadget, sans-serif;}
-main {
-display: grid;
-grid-template-columns: 1fr 1fr ;}
+nav {color: black; cursor: default; font-size: 3em;}
+h1{font-size: 2em;}
+h2{font-size: 1.5em;}
 
-.logo {width: 100%;}
-a{color: black;}
-@media screen and (max-width: 600px) {
- main {grid-template-columns: 1fr;
-  }
+@media screen and (max-width: 900px){ 
+    img{width: 98%;}
 }
